@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.db
+.env
+.venv
+
+.idea/
+
+data/raw/*
+data/staging/*
+data/mart/*
