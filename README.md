@@ -88,7 +88,7 @@ The system is built around a simple **star schema**:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/uline-logistics-analytics.git
+git clone https://github.com/NoSpectators/uline-logistics-analytics.git
 cd uline-logistics-analytics
 ```
 
