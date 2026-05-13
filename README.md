@@ -9,6 +9,13 @@ This project demonstrates a complete analytics workflow:
 - ETL pipeline development
 - Star schema design (fact + dimension tables)
 - Interactive BI dashboards using Metabase
+- Analytics workflows transforming raw operational data into business intelligence and decision-support insights
+
+The platform is designed to demonstrate how modern organizations convert:
+
+```text
+Raw Data → Structured Information → Operational Insights → Analytics-Driven Decision Support
+```
 
 The system is fully reproducible and runs locally using SQLite and Docker-based Metabase.
 ---
@@ -159,6 +166,18 @@ The Metabase dashboard includes:
 - Shipment throughput per warehouse
 - Delivery efficiency comparisons
 
+## 📊 Dashboard Preview
+
+The following dashboards were built in Metabase to visualize logistics performance and operational KPIs.
+
+### Operational Overview
+
+![Logistics Dashboard 1](docs/metabase_home.png)
+
+### Carrier & Delivery Performance
+
+![Logistics Dashboard 2](docs/metabase_shipments.png)
+
 
 ## 🧪 Data Simulation
 
@@ -197,6 +216,61 @@ It is intended to demonstrate readiness for roles involving:
 Data Engineering
 Business Intelligence
 Analytics Engineering
+
+---
+
+## 📊 Analytics Maturity Model
+
+This project demonstrates how raw operational logistics data can evolve into increasingly valuable analytical insights through three layers of analytics:
+
+### 1️⃣ Descriptive Analytics — “What happened?”
+
+The current BI layer focuses on operational reporting and KPI visibility using SQL transformations and Metabase dashboards.
+
+Examples include:
+- On-time delivery rate
+- Average shipment duration
+- Shipment volume by carrier
+- Warehouse throughput analysis
+- Delivery delay trends
+
+This layer provides historical and operational insight into logistics performance.
+
+---
+
+### 2️⃣ Predictive Analytics — “What is likely to happen?”
+
+Planned enhancements include predictive modeling to identify potential operational risks before they occur.
+
+Future predictive capabilities may include:
+- Predicting delayed shipments
+- Forecasting delivery duration
+- Estimating shipment volume trends
+- Identifying high-risk carriers or warehouses
+
+This layer will introduce machine learning workflows using Python and scikit-learn.
+
+---
+
+### 3️⃣ Prescriptive Analytics — “What should we do?”
+
+The final stage of the platform is intended to support operational decision-making through recommendation logic.
+
+Examples may include:
+- Recommending optimal carriers based on predicted delay risk
+- Identifying warehouse routing improvements
+- Suggesting operational adjustments to improve delivery performance
+
+This layer transforms analytical insights into actionable business recommendations.
+
+---
+
+### 🎯 Analytics Vision
+
+The long-term goal of this project is to demonstrate how modern data platforms transform:
+
+```text
+Raw Data → Operational Insights → Predictive Intelligence → Decision Support
 
 📌 Future Improvements
 Add Airflow-style orchestration
