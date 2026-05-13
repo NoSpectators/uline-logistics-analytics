@@ -190,33 +190,6 @@ Since this project does not use real company data, Python is used to simulate re
 
 This ensures the pipeline behaves like a real production system while remaining fully self-contained and reproducible.
 
-## 🧠 Key Engineering Concepts Demonstrated
-
-This project demonstrates:
-
-- Data pipeline design (end-to-end)
-- ETL architecture (extract → transform → load)
-- Star schema modeling
-- SQL-based transformation logic
-- BI-ready data modeling
-- Reproducible analytics workflows 
-- Separation of raw, staging, and mart layers
-
-🎯 Why This Project
-
-This project was designed to reflect the type of work performed in a data engineering / BI analytics role, including:
-
-Building scalable data models
-Supporting business decision-making
-Creating reusable transformation logic
-Integrating Python + SQL + BI tools
-
-It is intended to demonstrate readiness for roles involving:
-
-Data Engineering
-Business Intelligence
-Analytics Engineering
-
 ---
 
 ## 📊 Analytics Maturity Model
@@ -271,10 +244,4 @@ The long-term goal of this project is to demonstrate how modern data platforms t
 
 ```text
 Raw Data → Operational Insights → Predictive Intelligence → Decision Support
-
-📌 Future Improvements
-Add Airflow-style orchestration
-Introduce incremental data loads
-Add slowly changing dimensions (SCD Type 2)
-Deploy Power BI service integration
-Containerize pipeline using Docker
+```
